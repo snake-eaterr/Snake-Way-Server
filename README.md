@@ -1,5 +1,6 @@
 # Snake-Way-Server
 GraphQl backend for the Snake Way eCommerce website.
+
 [Frontend](https://github.com/snake-eaterr/Snake-Way-client)
 
 ## Note
