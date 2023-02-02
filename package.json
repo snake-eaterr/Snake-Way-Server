@@ -7,8 +7,8 @@
     "test": "NODE_ENV=test jest --verbose --runInBand",
     "lint": "eslint .",
     "dev": "nodemon",
-    "build:ui": "rm -rf build && cd ../client && npm run build --prod && cp -r build ../server",
-    "build:server": "NODE_ENV=production webpack --mode=production --config webpack.config.js",
+    "build:ui": "rm -rf build && cd ../Snake-Way-client && npm run build --prod && cp -r build ../Snake-Way-Server",
+    "build:server": "NODE_ENV=production rm -rf server-build && webpack --mode=production --config webpack.config.js",
     "start": "NODE_ENV=production node ./server-build/index.js"
   },
   "keywords": [
